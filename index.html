@@ -11,6 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
         referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
@@ -47,7 +54,7 @@
                     رقمي
                     مستدام .</p>
                 <div class="btns mt-8 md:mb-10 md:mt-20">
-                    <a href=""
+                    <a href="#rqm-story"
                         class="px-5 sm:px-10 bg-[#d9d9d933] text-white  py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-bold">تعرف
                         على
                         رقم</a>
@@ -60,7 +67,7 @@
 
         </div>
         <div class="arrow  absolute left-1/2 translate-x-[-50%] bottom-20 ">
-            <a href=""> <i class="ri-arrow-drop-down-line text-4xl text-white"></i></a>
+            <a href="#rqm-story"> <i class="ri-arrow-drop-down-line text-4xl text-white"></i></a>
         </div>
     </header>
 
@@ -124,50 +131,50 @@
                 <span class="md:text-4xl title text-2xl font-medium text-mainColor dark:text-white">الخدمات
                     المقدّمة</span>
                 <a href=""
-                    class="border rounded-full px-5 py-2 font-medium hover:bg-[#d9d9d933] hover:text-mainColor transition">عرض
+                    class="border rounded-full px-5 py-2 font-medium dark:hover:bg-secondColor dark:hover:text-white  hover:bg-[#d9d9d933] hover:text-mainColor transition">عرض
                     المزيد</a>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6  items  mt-24 ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6  items  mt-24 ">
 
-                <div class=" px-5 py-6 item dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border">
+                <div
+                    class=" relative item dark:bg-darkBodyBg2 rounded-[20px] overflow-hidden dark:border-[#091B40] border-mainBorder border">
+                    <img src="./src/images/service1.png" class="w-100" alt="">
+                    <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
+                        <div>
+                            <i class="icon-icon1 text-white text-5xl dark:text-white"></i>
+                            <h3 class="text-white text-[42px] mt-4 font-bold dark:text-white">خدمات الحكومة الرقمیة</h3>
+                        </div>
+                    </div>
 
-                    <i class="ri-community-line text-5xl dark:text-white"></i>
-                    <h3 class="text-mainColor text-[20px] py-5 font-bold dark:text-white">خدمات الحكومة الرقمیة</h3>
-                    <p class="text-secondColor text-[18px] dark:text-darkSecondColor">نطور الخدمات الحكومية الرقمية،
-                        ونعزز التجارب
-                        المبتكرة للجهات
-                        المستفيدة باختلاف قطاعاتها. مما يرفع
-                        من كفاءة العمليات الحكومية بفاعلية وأمان.</p>
                 </div>
-                <div class="  px-5 py-6 item dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border ">
-                    <i class="ri-community-line text-5xl"></i>
-                    <h3 class="text-mainColor text-[20px] py-5 font-bold dark:text-white">خدمات قطاع الأعمال </h3>
-                    <p class="text-secondColor text-[18px] dark:text-darkSecondColor">نبتكر حلولاً رقمية متقدمة، تزيد
-                        الإنتاجية
-                        وترفع الكفاءة
-                        التشغيلية وتحسن تجربة العميل، هذه الحلول تختصر الخطوات وتطور الإجراءات وتتنبأ بالفرص المستقبلية.
-                    </p>
+
+                <div
+                    class=" relative item dark:bg-darkBodyBg2 rounded-[20px] overflow-hidden dark:border-[#091B40] border-mainBorder border">
+                    <img src="./src/images/service2.png" class="w-100" alt="">
+                    <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
+                        <div>
+                            <i class="icon-icon3 text-white text-5xl dark:text-white"></i>
+                            <h3 class="text-white text-[42px] mt-4  font-bold dark:text-white">خدمات قطاع الأعمال </h3>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="  px-5 py-6 item dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border ">
-                    <i class="ri-community-line text-5xl"></i>
-                    <h3 class="text-mainColor text-[20px] py-5 font-semibold dark:text-white"> استشارات الحلول الرقمیة
-                    </h3>
-                    <p class="text-secondColor text-[18px] dark:text-darkSecondColor">نطوّر الاستراتيجيات المتخصصة،
-                        ونقدّم
-                        التقييمات التقنية،
-                        والتدريب اللازم لاستخدام التقنيات الحديثة وفق المنتجات والمعطيات القائمة والحلول المستخدمة.</p>
+
+                <div
+                    class=" relative item dark:bg-darkBodyBg2 rounded-[20px] overflow-hidden dark:border-[#091B40] border-mainBorder border">
+                    <img src="./src/images/service3.png" class="w-100" alt="">
+                    <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
+                        <div>
+                            <i class="icon-icon2  text-white text-5xl dark:text-white"></i>
+                            <h3 class="text-white text-[42px]   font-semibold dark:text-white"> استشارات الحلول
+                                الرقمیة
+                            </h3>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="  px-5 py-6 item dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border ">
-                    <i class="ri-community-line text-5xl"></i>
-                    <h3 class="text-mainColor text-[20px] py-5 font-semibold dark:text-white"> حلول التقنیات الناشئة
-                    </h3>
-                    <p class="text-secondColor text-[18px] dark:text-darkSecondColor"> نؤمن بدور المملكة الريادي ونتبناه
-                        في
-                        خدماتنا بحلول تقنية
-                        شاملة لنماذج الأعمال منها: <span class="font-bold">الذكاء الاصطناعي، الحوسبة</span>
-                        السحابية، وغيرها من التقنيات.
-                    </p>
-                </div>
+
+
             </div>
 
         </div>
@@ -176,62 +183,118 @@
         <div class="w-[88%] m-auto">
             <h2 class="text-center text-mainColor text-4xl font-bold dark:text-white">قيمنا العالية</h2>
             <div class="grid grid-cols-1 sm:grid-cols-1  md:grid-cols-1 lg:grid-cols-2 gap-[60px] my-20">
-                <div class="flex items-center order-1 lg:order-none ">
+                <div class="flex items-center order-1 lg:order-none justify-center">
                     <img src="./src/images/our-values.svg" class="w-100" alt="">
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items">
-                    <div
-                        class="item rounded-[20px]  p-5 dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border">
-                        <span
-                            class="rounded-full bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center dark:text-black">1</span>
-                        <h3 class="text-mainColor text-2xl font-bold my-4  dark:text-white">الابتكار</h3>
-                        <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor"> الحل يبدأ من فكرة،
-                            والابتكار
-                            ينمو بالبحث عمّا
-                            وراء الفكرة،
-                            بعد رحلة
-                            محكمة من البحث والدراسة
-                            نبتكر حلولاً تتجاوز التوقعات.</p>
+                    <div class="item relative text-center   ">
+                        <img src="src/images/Polygon2.svg" class="w-full h-full" alt="">
+                        <div class="absolute w-10/12 top-1/2 translate-y-[-50%] translate-x-[-50%] left-1/2">
+                            <span
+                                class="rounded-full m-auto bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center dark:text-black">1</span>
+                            <h3 class="text-white text-2xl font-bold my-4  dark:text-white">الابتكار</h3>
+                            <p class="text-white text-lg font-normal dark:text-darkSecondColor"> نبتكر حلولاً
+                                رقمية
+                                تتجاوز التوقعات</p>
+                        </div>
                     </div>
-                    <div
-                        class="item rounded-[20px]  p-5 dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border">
-                        <span
-                            class="rounded-full bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center  dark:text-black">2</span>
-                        <h3 class="text-mainColor text-2xl font-bold my-4 dark:text-white">التطوير</h3>
-                        <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor"> نَعُدّ خطواتنا،
-                            نتفحّص
-                            منتجاتنا، نقوّم اعوجاج
-                            المسار بعد كل مرحلة، لنضمن مواكبة المنتج
-                            لمتطلبات السوق.  </p>
+
+                    <div class="item relative text-center   ">
+                        <img src="src/images/Polygon1.svg" class="w-full h-full dark:hidden" alt="">
+                        <img src="src/images/Polygon2.svg" class="w-full h-full hidden dark:block" alt="">
+                        <div class="absolute w-full top-1/2 translate-y-[-50%] translate-x-[-50%] left-1/2">
+                            <span
+                                class="rounded-full m-auto bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center dark:text-black">2</span>
+                            <h3 class="text-mainColor text-2xl font-bold my-4  dark:text-white">التطوير</h3>
+                            <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor"> نضمن مواكبة
+                                المنتج
+                                لمتطلبات السوق</p>
+                        </div>
                     </div>
-                    <div
-                        class="item rounded-[20px] dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border p-5">
-                        <span
-                            class="rounded-full bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center  dark:text-black">3</span>
-                        <h3 class="text-mainColor text-2xl font-bold my-4 dark:text-white">الإتقان</h3>
-                        <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor">  نهتم بتفاصيل العمل
-                            لتلبية
-                            احتياجات العميل على
-                            أكمل وجه بتركيز عالٍ ودقة متناهية، لتطبيق أمثل الممارسات، مما يرفع من شعور الرضا ويعزز الثقة
-                            بيننا وبين شركائنا.  </p>
+
+                    <div class="item relative text-center   ">
+                        <img src="src/images/Polygon1.svg" class="w-full h-full dark:hidden" alt="">
+                        <img src="src/images/Polygon2.svg" class="w-full h-full hidden dark:block" alt="">
+                        <div class="absolute w-full top-1/2 translate-y-[-50%] translate-x-[-50%] left-1/2">
+                            <span
+                                class="rounded-full m-auto bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center dark:text-black">3</span>
+                            <h3 class="text-mainColor text-2xl font-bold my-4  dark:text-white">الإتقان</h3>
+                            <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor"> نهتم بتفاصيل
+                                العمل
+                                لنلبّي احتياجات العميل</p>
+                        </div>
                     </div>
-                    <div
-                        class="item rounded-[20px] dark:bg-darkBodyBg2 dark:border-[#091B40] border-mainBorder border p-5">
-                        <span
-                            class="rounded-full bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center  dark:text-black">4</span>
-                        <h3 class="text-mainColor text-2xl font-bold my-4 dark:text-white">الاستدامة</h3>
-                        <p class="text-secondColor text-lg font-normal dark:text-darkSecondColor">   لأن التوقف عدو
-                            النجاح، نتبنى
-                            استدامة الكفاءة
-                            بالحفاظ على الموارد والمواكبة الرقمية في كل أعمالنا لتحقيق الفائدة والنمو على المدى
-                            الطويل.  </p>
+                    <div class="item relative text-center   ">
+                        <img src="src/images/Polygon2.svg" class="w-full h-full" alt="">
+                        <div class="absolute w-10/12 top-1/2 translate-y-[-50%] translate-x-[-50%] left-1/2">
+                            <span
+                                class="rounded-full m-auto bg-[#DBDEE8] w-9 h-9  font-bold flex items-center justify-center dark:text-black">1</span>
+                            <h3 class="text-white text-2xl font-bold my-4  dark:text-white">الاستدامة</h3>
+                            <p class="text-white text-lg font-normal dark:text-darkSecondColor"> نحافظ على استدامة
+                                كفاءة الأعمال ونموّها </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why-rqm">
+        <div class="w-[88%] m-auto">
+            <div>
+                <h2 class="text-mainColor text-4xl font-bold">لماذا رقم ؟</h2>
+            </div>
+
+
+            <div class="owl-carousel owl-theme mt-14">
+                <div class="item">
+                    <div class="item p-5 rounded-xl">
+                        <img src="src/images/why1.png" class="w-full rounded-xl h-[214px]" alt="">
+                        <h3 class="text-mainColor text-2xl my-3">لياقة عالية</h3>
+                        <p class="text-secondColor ">نعتمد في أعمالنا على منهجيات رشيقة تتميز بالمرونة مع التغيرات
+                            والقدرة
+                            على التحسين المستمر وفق
+                            رغبات
+                            العميل ومتطلبات السوق. </p>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="item p-5 rounded-xl">
+                        <img src="src/images/why2.png" class="w-full rounded-xl h-[214px]" alt="">
+                        <h3 class="text-mainColor text-2xl my-3">ماراثون ابتكاري </h3>
+                        <p class="text-secondColor ">
+                            مستعدّون دائماً للعمل بخطوات متسارعة لتلبية احتياجات شركائنا العاجلة. 
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item p-5 rounded-xl">
+                        <img src="src/images/why3.png" class="w-full rounded-xl h-[214px]" alt="">
+                        <h3 class="text-mainColor text-2xl my-3"> خبرة عميقة</h3>
+                        <p class="text-secondColor ">
+                            فريق من الكفاءات بسنين من الخبرات الرقمية في المجالات الحيوية الرائدة.
+                             </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item p-5 rounded-xl">
+                        <img src="src/images/why4.png" class="w-full rounded-xl h-[214px]" alt="">
+                        <h3 class="text-mainColor text-2xl my-3"> تقنيات متكاملة</h3>
+                        <p class="text-secondColor ">
+                            حلول شاملة لأحدث التقنيات تتكامل مع أهداف المنتجات والخدمات لمواكبة توجهات السوق.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
 
     <script src="./src/js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./src/js/main.js"></script>
 </body>
 

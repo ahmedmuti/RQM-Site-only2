@@ -63,3 +63,22 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', fun
 
     }
 })
+
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    rtl: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+})
