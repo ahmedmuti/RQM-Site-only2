@@ -110,7 +110,8 @@ body {
 }
 
 #rqm-story span,
-#services span {
+#services span,
+#our-values h2 {
     position: relative;
 }
 
@@ -125,9 +126,20 @@ body {
     background-color: #57A6C0;
 }
 
+#our-values h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 41px;
+
+    right: 49%;
+    transform: translateX(50%);
+    height: 3px;
+    background-color: #57A6C0;
+}
+
 #services .items>div {
     border-radius: 20px;
-    border: 1px solid #E8E8E8;
     background: linear-gradient(180deg, #FBFBFB 0%, #FFF 100%);
 }
 
