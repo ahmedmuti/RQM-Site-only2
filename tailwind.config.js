@@ -12,10 +12,12 @@ module.exports = {
       colors: {
         "mainColor": "#152A54",
         "secondColor": "#3D5579",
-        "darkSecondColor": "#CBDAF1"
+        "darkSecondColor": "#CBDAF1",
+        "footerColor": "#F9FCFE"
       },
       borderColor: {
-        "mainBorder": "#E8E8E8"
+        "mainBorder": "#E8E8E8",
+        "secondBorder": "#152A54",
       }
     },
   },

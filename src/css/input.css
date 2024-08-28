@@ -7,12 +7,10 @@ html {
 }
 
 body {
-    height: 20000px;
+
     font-family: "Almarai", sans-serif;
     font-weight: 300;
     font-style: normal;
-
-
 }
 
 #home {
@@ -175,10 +173,19 @@ body {
 
 #why-rqm .item .item {
 
-    border: 1px #E8E8E8 solid;
+    /* border: 1px #E8E8E8 solid; */
     background: linear-gradient(180deg, #FBFBFB 0%, #FFF 52.5%, #FFF 100%);
 }
 
+#why-rqm .owl-carousel2 .item {
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+footer ul li {
+    margin: 12.5px 0;
+}
 
 /* fonts style */
 @font-face {

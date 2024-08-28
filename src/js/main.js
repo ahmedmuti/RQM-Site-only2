@@ -65,20 +65,53 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', fun
 })
 
 
-$('.owl-carousel').owlCarousel({
+$('.carousel-one').owlCarousel({
     loop: true,
     margin: 20,
-    nav: true,
+    dots: false,
     rtl: true,
+    autoplay: true,
+    autoplayTimeout: 7000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1
         },
         600: {
+            items: 2
+        },
+        800: {
             items: 3
         },
         1000: {
             items: 4
+        }
+    }
+})
+
+$('.owl-carousel2').owlCarousel({
+    loop: true,
+    margin: 20,
+    dots: false,
+    rtl: true,
+    slideTransition: 'linear',
+    smartSpeed: 1700,
+
+    autoplay: true,
+    autoplayTimeout: 900,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 3
+        },
+        600: {
+            items: 3
+        },
+        800: {
+            items: 4
+        },
+        1000: {
+            items: 8
         }
     }
 })
