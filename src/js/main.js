@@ -20,7 +20,7 @@ modeIcon.addEventListener('click', function () {
         document.documentElement.classList.add('dark')
         localStorage.theme = 'dark'
     } else {
-        modeIcon.innerHTML = '<i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i>'
+        modeIcon.innerHTML = '<i class="ri-sun-line mx-3 text-xl cursor-pointer"></i>'
         document.documentElement.classList.remove('dark')
         localStorage.theme = 'light'
     }
@@ -32,7 +32,7 @@ if (localStorage.theme && localStorage.theme == "dark") {
 
 } else if (localStorage.theme && localStorage.theme == "light") {
     document.documentElement.classList.remove('dark')
-    modeIcon.innerHTML = '<i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i>'
+    modeIcon.innerHTML = '<i class="ri-sun-line mx-3 text-xl cursor-pointer"></i>'
     localStorage.theme = 'light'
 }
 // reload toggle
@@ -44,7 +44,7 @@ if (!localStorage.theme) {
 
     } else {
         document.documentElement.classList.remove('dark')
-        modeIcon.innerHTML = '<i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i>'
+        modeIcon.innerHTML = '<i class="ri-sun-line mx-3 text-xl cursor-pointer"></i>'
         localStorage.theme = 'light'
     }
 }
@@ -57,7 +57,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', fun
         localStorage.theme = 'dark'
     } else {
         document.documentElement.classList.remove('dark')
-        modeIcon.innerHTML = '<i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i>'
+        modeIcon.innerHTML = '<i class="ri-sun-line mx-3 text-xl cursor-pointer"></i>'
 
         localStorage.theme = 'light'
 
@@ -66,13 +66,15 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', fun
 
 
 $('.carousel-one').owlCarousel({
-    loop: true,
+    // loop: true,
     margin: 20,
     dots: false,
     rtl: true,
     autoplay: true,
     autoplayTimeout: 7000,
     autoplayHoverPause: true,
+    // center: true,
+    // startPosition: 10,
     responsive: {
         0: {
             items: 1
@@ -115,3 +117,41 @@ $('.owl-carousel2').owlCarousel({
         }
     }
 })
+
+var swiper1 = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next1",
+        prevEl: ".swiper-button-prev1",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 24,
+        },
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 25,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 25,
+        },
+        1400: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+    },
+});
+
+
+

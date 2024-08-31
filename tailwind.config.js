@@ -18,7 +18,17 @@ module.exports = {
       borderColor: {
         "mainBorder": "#E8E8E8",
         "secondBorder": "#152A54",
-      }
+      },
+      container: {
+        center: true,
+        screens: {
+          sm: '540px',
+          md: '720px',
+          lg: '960px',
+          xl: '1140px',
+          '2xl': '1320px',
+        },
+      },
     },
   },
   darkMode: 'selector',

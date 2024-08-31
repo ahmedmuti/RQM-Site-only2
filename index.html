@@ -18,6 +18,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
@@ -31,7 +32,7 @@
                 <img src="./src/images/logo.svg" alt="">
             </div>
             <div class="icons text-white ">
-                <span><i id="open" class="ri-menu-4-fill fs text-xl cursor-pointer"></i></span>
+                <span><i id="open" class="ri-menu-2-line fs text-xl cursor-pointer"></i></span>
                 <span id="mode"><i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i></span>
                 <span class="text-xl cursor-pointer">EN</span>
             </div>
@@ -41,10 +42,10 @@
 
     <!-- start of the home section -->
 
-    <header id="home" class="h-[900px] relative dark:bg-mainLinear">
+    <header id="home" class="h-[130vh] relative dark:bg-mainLinear">
         <div class="flex items-center justify-center relative h-full">
             <video loop autoplay muted plays-inline
-                class="h-[900px] object-cover absolute bottom-0 right-0 top-0 left-0 z-[-100]">
+                class="h-[130vh] object-cover absolute bottom-0 right-0 top-0 left-0 z-[-100]">
                 <source src="./src/images/number_digital_backgroundـcompress.mp4" type="video/mp4">
             </video>
             <div class="caption  text-center w-11/12 m-auto absolute z-20 ">
@@ -55,11 +56,11 @@
                     مستدام .</p>
                 <div class="btns mt-8 md:mb-10 md:mt-20">
                     <a href="#rqm-story"
-                        class="px-5 sm:px-10 bg-[#d9d9d933] text-white  py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-bold">تعرف
+                        class="px-3 sm:px-10 bg-[#d9d9d933] text-white  py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300 font-bold">تعرف
                         على
                         رقم</a>
                     <a href=""
-                        class="px-5 sm:px-10  bg-white  text-[#000] py-3 rounded-full mx-4 font-bold hover:bg-[#d9d9d933] hover:text-white transition-all duration-300">اطلب
+                        class="px-3 sm:px-10  bg-white  text-[#000] py-3 rounded-full mx-4 font-bold hover:bg-[#d9d9d933] hover:text-white transition-all duration-300">اطلب
                         خدمتك</a>
                 </div>
 
@@ -67,16 +68,17 @@
 
         </div>
         <div class="arrow  absolute left-1/2 translate-x-[-50%] bottom-20 ">
+            <!-- <i class="ri-mouse-line"></i> -->
             <a href="#rqm-story"> <i class="ri-arrow-drop-down-line text-4xl text-white"></i></a>
         </div>
     </header>
 
     <!-- end of the home section -->
     <section id="side-menu" class="dark:bg-secondLinear h-[120vh] w-full fixed top-0 left-0 pt-4 z-30">
-        <div class="w-10/12 m-auto">
+        <div class="w-10/12 m-auto mt-4">
             <div class="flex justify-between">
                 <img src="./src/images/logo.svg" alt="">
-                <i id="close" class="ri-close-large-fill text-white text-3xl cursor-pointer"></i>
+                <i id="close" class="ri-close-large-fill text-white text-xl cursor-pointer"></i>
             </div>
             <div class=" mt-10 text-white ">
                 <ul>
@@ -88,24 +90,25 @@
                     <li class="my-7 text-2xl "><a href="">تواصل معنا</a></li>
                 </ul>
             </div>
-            <div class="flex justify-between text-white mt-20">
+            <!-- <div class="flex justify-between text-white mt-20">
                 <p class="text-center">جميع الحقوق محفوظة لشركة رقم 1445 / 2024 ©</p>
                 <div class="flex">
                     <a href=""> <i class="ri-twitter-x-line mx-5 text-2xl"></i></a>
                     <a href=""><i class="ri-linkedin-box-fill text-2xl"></i></a>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </section>
     <section id="rqm-story" class="my-10">
-        <div class="w-[88%] m-auto">
-            <div class="grid md:grid-cols-5 gap-4  items-center">
-                <div class="lg:col-span-3 col-span-5">
-                    <span class="text-4xl font-medium text-mainColor dark:text-white">قصة رقم</span>
-                    <h2 class="my-8 text-[25px] md:text-4xl font-bold text-mainColor  dark:text-white">بقيم راسخة ورؤية
+        <div class="container m-auto px-2">
+            <div class="grid md:grid-cols-5 gap-0  ">
+                <div class="lg:col-span-3  col-span-5 order-2 lg:order-1 lg:text-right mt-10  text-center">
+                    <span class="text-4xl  font-medium text-mainColor dark:text-white">قصة رقم</span>
+                    <h2 class="my-[34px] text-[25px] md:text-4xl font-bold text-mainColor  dark:text-white">بقيم راسخة
+                        ورؤية
                         واضحة للمستقبل
-                        الرقمي القادم
+                        الرقمي
                     </h2>
                     <p class=" dark:text-darkSecondColor text-secondColor text-[16px] md:text-[19px]">استلهاماً من رؤية
                         المملكة
@@ -119,14 +122,14 @@
                         على الانتقال من الصفر إلى الواحد، لتحقق أهدافها وتصبح شركة رائدة في خدمة الاقتصاد الرقمي المحلي
                         والعالمي.</p>
                 </div>
-                <div class="lg:col-span-2 col-span-5 flex items-center">
-                    <img src="./src/images/Robot.svg" class="w-full h-full" alt="">
+                <div class="lg:col-span-2 col-span-5 order-1 lg:order-2  flex items-center ">
+                    <img src="./src/images/Robot-cropped.svg" class=" max-w-[none] w-full" alt="">
                 </div>
             </div>
         </div>
     </section>
     <section id="services" class="py-20 ">
-        <div class="w-[88%] m-auto">
+        <div class="container m-auto ">
             <div class="flex justify-between">
                 <span class="md:text-4xl title text-2xl font-medium text-mainColor dark:text-white">الخدمات
                     المقدّمة</span>
@@ -141,7 +144,7 @@
                     <img src="./src/images/service1.png" class="w-100" alt="">
                     <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
                         <div>
-                            <i class="icon-icon1 text-white text-5xl dark:text-white"></i>
+                            <i class="icon-icon1  text-[66px] text-white text-5xl dark:text-white"></i>
                             <h3 class="text-white text-[42px] mt-4 font-bold dark:text-white">خدمات الحكومة الرقمیة</h3>
                         </div>
                     </div>
@@ -152,8 +155,8 @@
                     class=" relative item dark:bg-darkBodyBg2 rounded-[20px] overflow-hidden dark:border-[#091B40] border-mainBorder border">
                     <img src="./src/images/service2.png" class="w-100" alt="">
                     <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
-                        <div>
-                            <i class="icon-icon3 text-white text-5xl dark:text-white"></i>
+                        <div class="center">
+                            <i class="icon-icon3 text-white text-[66px] text-5xl dark:text-white"></i>
                             <h3 class="text-white text-[42px] mt-4  font-bold dark:text-white">خدمات قطاع الأعمال </h3>
                         </div>
                     </div>
@@ -165,7 +168,7 @@
                     <img src="./src/images/service3.png" class="w-100" alt="">
                     <div class="overlay absolute top-0 left-0 right-0 bottom-0 px-[20px] flex items-center ">
                         <div>
-                            <i class="icon-icon2  text-white text-5xl dark:text-white"></i>
+                            <i class="icon-icon2  text-white  text-[66px] text-5xl dark:text-white"></i>
                             <h3 class="text-white text-[42px]   font-semibold dark:text-white"> استشارات الحلول
                                 الرقمیة
                             </h3>
@@ -243,60 +246,65 @@
             </div>
         </div>
     </section>
-    <section id="why-rqm">
-        <div class="w-[88%] m-auto">
+    <section id="why-rqm" class="overflow-hidden">
+        <div class="container mx-auto">
             <div>
                 <h2 class="text-mainColor text-4xl font-bold dark:text-white">لماذا رقم ؟</h2>
             </div>
+            <div class="swiper mySwiper mt-14 mb-40">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide h-full">
+                        <div
+                            class="item h-full  p-5 border-mainBorder border pb-10 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
+                            <img src="src/images/why1.png" class="w-full rounded-xl h-[220px] object-cover" alt="">
+                            <h3 class="text-mainColor dark:text-white text-2xl font-bold my-3">لياقة عالية</h3>
+                            <p class="text-secondColor dark:text-white ">نعتمد في أعمالنا على منهجيات رشيقة تتميز
+                                بالمرونة
+                                مع التغيرات
+                                والقدرة
+                                على التحسين المستمر وفق
+                                رغبات
+                                العميل ومتطلبات السوق. </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-full">
+                        <div
+                            class="item h-full p-5 border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
+                            <img src="src/images/why2.png" class="w-full rounded-xl h-[220px] object-cover" alt="">
+                            <h3 class="text-mainColor dark:text-white text-2xl font-bold my-3">ماراثون ابتكاري </h3>
+                            <p class="text-secondColor dark:text-white ">
+                                مستعدّون دائماً للعمل بخطوات متسارعة لتلبية احتياجات شركائنا العاجلة. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-full">
+                        <div
+                            class="item p-5 h-full border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
+                            <img src="src/images/why3.png" class="w-full rounded-xl h-[220px] object-cover" alt="">
+                            <h3 class="text-mainColor dark:text-white text-2xl font-bold my-3"> خبرة عميقة</h3>
+                            <p class="text-secondColor dark:text-white ">
+                                فريق من الكفاءات بسنين من الخبرات الرقمية في المجالات الحيوية الرائدة.
+                                 </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-full">
+                        <div
+                            class="item p-5 h-full border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
+                            <img src="src/images/why4.png" class="w-full rounded-xl h-[220px] object-cover" alt="">
+                            <h3 class="text-mainColor dark:text-white text-2xl font-bold my-3"> تقنيات متكاملة</h3>
+                            <p class="text-secondColor dark:text-white ">
+                                حلول شاملة لأحدث التقنيات تتكامل مع أهداف المنتجات والخدمات لمواكبة توجهات السوق.
+                            </p>
+                        </div>
+                    </div>
 
 
-            <div class="owl-carousel carousel-one owl-theme mt-14 mb-40">
-                <div class="item">
-                    <div
-                        class="item p-5 border-mainBorder border pb-10 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
-                        <img src="src/images/why1.png" class="w-full rounded-xl h-[220px]" alt="">
-                        <h3 class="text-mainColor dark:text-white text-2xl my-3">لياقة عالية</h3>
-                        <p class="text-secondColor dark:text-white ">نعتمد في أعمالنا على منهجيات رشيقة تتميز بالمرونة
-                            مع التغيرات
-                            والقدرة
-                            على التحسين المستمر وفق
-                            رغبات
-                            العميل ومتطلبات السوق. </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div
-                        class="item p-5 border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
-                        <img src="src/images/why2.png" class="w-full rounded-xl h-[220px]" alt="">
-                        <h3 class="text-mainColor dark:text-white text-2xl my-3">ماراثون ابتكاري </h3>
-                        <p class="text-secondColor dark:text-white ">
-                            مستعدّون دائماً للعمل بخطوات متسارعة لتلبية احتياجات شركائنا العاجلة. 
-                        </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div
-                        class="item p-5 border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
-                        <img src="src/images/why3.png" class="w-full rounded-xl h-[220px]" alt="">
-                        <h3 class="text-mainColor dark:text-white text-2xl my-3"> خبرة عميقة</h3>
-                        <p class="text-secondColor dark:text-white ">
-                            فريق من الكفاءات بسنين من الخبرات الرقمية في المجالات الحيوية الرائدة.
-                             </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div
-                        class="item p-5 border-mainBorder border pb-16 rounded-xl dark:bg-darkBodyBg2 dark:border-secondBorder">
-                        <img src="src/images/why4.png" class="w-full rounded-xl h-[220px]" alt="">
-                        <h3 class="text-mainColor dark:text-white text-2xl my-3"> تقنيات متكاملة</h3>
-                        <p class="text-secondColor dark:text-white ">
-                            حلول شاملة لأحدث التقنيات تتكامل مع أهداف المنتجات والخدمات لمواكبة توجهات السوق.
-                        </p>
-                    </div>
-                </div>
 
-
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
+
+
 
             <div class="owl-carousel owl-carousel2 owl-theme">
                 <div class="item dark:bg-mainColor">
@@ -390,6 +398,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="./src/js/main.js"></script>
 </body>
 
