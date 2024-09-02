@@ -313,3 +313,10 @@ footer ul li {
 .swiper {
     overflow: visible !important;
 }
+
+header {
+    height: 395px;
+    background: linear-gradient(180deg, #0B204A 56.19%, #5BB0B9 100%), url(../images/who_we_are.svg);
+    background-blend-mode: hard-light, luminosity, luminosity;
+    background-size: cover;
+}
