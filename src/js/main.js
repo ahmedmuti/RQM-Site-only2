@@ -72,6 +72,8 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', fun
 
     }
 })
+AOS.init();
+AOS.refresh();
 
 
 $('.carousel-one').owlCarousel({
@@ -161,6 +163,9 @@ var swiper1 = new Swiper(".mySwiper", {
         },
     },
 });
+
+
+
 
 
 
