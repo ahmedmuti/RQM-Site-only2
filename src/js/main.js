@@ -3,15 +3,24 @@ const sideMenu = document.getElementById('side-menu')
 const closeIcon = document.getElementById('close')
 const openIcon = document.getElementById('open')
 const modeIcon = document.getElementById('mode')
+const linkClicks = document.querySelectorAll('#side-menu ul li a')
 
 closeIcon.addEventListener('click', function () {
     sideMenu.style.left = "100%"
 })
 openIcon.addEventListener('click', function () {
     sideMenu.style.left = "0%"
+    sideMenu.style.opacity = "1"
+
 
 })
+linkClicks.forEach((item) => {
+    item.addEventListener('click', function () {
+        sideMenu.style.left = "100%"
+        sideMenu.style.opacity = "0"
 
+    })
+})
 
 //click toggle
 modeIcon.addEventListener('click', function () {

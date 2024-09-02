@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة رقم لحلول الأعمال</title>
+    <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="dark:bg-darkBodyBg dark:text-white">
+    <!-- start of the navbar section -->
+    <nav class=" h-fit overflow-hidden absolute top-0 w-full z-10 mt-3">
+        <div class="w-10/12 m-auto my-4 flex justify-between">
+            <div class="logo">
+                <img src="./src/images/logo.svg" alt="">
+            </div>
+            <div class="icons text-white ">
+                <span><i id="open" class="ri-menu-2-line fs text-xl cursor-pointer"></i></span>
+                <span id="mode"><i class="ri-moon-fill mx-3 text-xl cursor-pointer"></i></span>
+                <span class="text-xl cursor-pointer">EN</span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of the navbar section -->
+    <!-- start of the home section -->
+    <header id="who-we-are" class="flex items-center dark:bg-whoWeAre">
+        <div class="container text-white px-5">
+            <div class="">
+                <i class="ri-arrow-left-s-line text-[15px]"></i>
+                <a href="../../index.html"><i class="ri-home-3-line text-[15px]"></i></a>
+                <span class="text-[15px]">تواصل معنا</span>
+            </div>
+            <div class="mt-4">
+                <h1 class="text-4xl">تواصل معنا</h1>
+            </div>
+        </div>
+    </header>
+    <!-- end of the home section -->
+    <section id="side-menu" class="dark:bg-secondLinear h-[120vh] w-full fixed top-0 left-0 pt-4 z-30">
+        <div class="w-10/12 m-auto mt-4">
+            <div class="flex justify-between">
+                <img src="./src/images/logo.svg" alt="">
+                <i id="close" class="ri-close-large-fill text-white text-xl cursor-pointer"></i>
+            </div>
+            <div class=" mt-10 text-white ">
+                <ul>
+                    <li class="my-7 text-2xl "><a href="../../index.html">الرئيسية</a></li>
+                    <li class="my-7 text-2xl "><a href="">قصة رقم</a></li>
+                    <li class="my-7 text-2xl "><a href="./services.html">الخدمات</a></li>
+                    <li class="my-7 text-2xl "><a href="./who_are_we.html">من نحن</a></li>
+                    <li class="my-7 text-2xl "><a href="">الشركاء</a></li>
+                    <li class="my-7 text-2xl "><a href="./contact-us.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container">
+            <h2 class="my-20 text-mainColor dark:text-white font-bold text-3xl">اتصل بنا</h2>
+            <div class="grid grid-cols-5">
+                <div class="lg:col-span-3 col-span-5 mx-3">
+                    <div class="flex px-4 py-3 bg-[#F9F9F9] dark:bg-mainColor dark:text-white rounded-xl  mx-3">
+                        <span> <i class="ri-whatsapp-line text-[#3D5579] text-xl mx-1"></i> 0554404688 </span>
+                        <span class="flex mx-5"><i class="ri-mail-line text-[#3D5579] text-xl mx-1"></i>
+                            info@rqm.sa</span>
+                    </div>
+                    <div class="grid grid-cols-2  my-4 mx-3">
+                        <div class="lg:col-span-1 col-span-2 mt-4">
+                            <label for="name" class="text-mainColor dark:text-white font-bold">الاسم</label>
+                            <input type="text" id="name"
+                                class="border w-full p-[15px] rounded-xl dark:bg-mainColor dark:border-mainColor "
+                                placeholder="الاسم">
+                        </div>
+                        <div class="lg:col-span-1 col-span-2 lg:ms-3 mt-4">
+                            <label for="email" class="text-mainColor font-bold dark:text-white ">البريد
+                                الإلكتروني</label>
+                            <input type="text" id="email"
+                                class="border w-full p-[15px] rounded-xl dark:bg-mainColor dark:border-mainColor "
+                                placeholder="البريد الإلكتروني">
+                        </div>
+                    </div>
+                    <div class="my-4 mx-3">
+                        <div class="mt-4">
+                            <label for="title" class="text-mainColor font-bold dark:text-white ">عنوان الرسالة</label>
+                            <input type="text" id="title"
+                                class="border dark:bg-mainColor dark:border-mainColor w-full p-[15px]  rounded-xl"
+                                placeholder="عنوان الرسالة">
+                        </div>
+                    </div>
+                    <div class="my-4 mx-3">
+                        <div class="mt-4">
+                            <label for="msg" class="text-mainColor font-bold dark:text-white ">وصف الرسالة</label>
+                            <textarea id="msg" placeholder="الرسالة"
+                                class="border w-full p-[15px] rounded-xl dark:bg-mainColor dark:border-mainColor "></textarea>
+                        </div>
+                    </div>
+                    <button class="bg-mainColor text-white rounded-[81px] py-3 px-9 ">إرسال</button>
+
+                </div>
+                <div class="lg:col-span-2 col-span-5">
+                    <img src="../images/contact-us.png" class="rounded-3xl w-full object-cover" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="bg-footerColor my-7 pt-[60px] pb-0 dark:bg-mainColor dark:text-white">
+        <div class="grid grid-cols-6  w-[90%] m-auto gap-x-2 gap-y-10 ">
+            <div class="col-span-6 sm:col-span-6 md:col-span-6 lg:col-span-2">
+                <img src="./src/images/logo2.svg" class="dark:hidden" alt="">
+                <img src="./src/images/logo.svg" class="dark:block" alt="">
+                <h3 class="text-[22px] font-bold text-mainColor my-7  dark:text-white">حلول أعمالك على بُعد خطوة</h3>
+                <a href=""
+                    class="bg-mainColor  dark:bg-secondColor text-white border-none py-3 px-[25px] rounded-full">اطلب
+                    خدمك</a>
+            </div>
+            <div class="col-span-3 sm:col-span-3 md:col-span-3 lg:col-span-1">
+                <h3 class="text-[22px] font-bold text-mainColor  dark:text-white">روابط هامة </h3>
+                <ul class="text-secondColor  dark:text-white">
+                    <li>الرئيسية</li>
+                    <li>الخدمات</li>
+                    <li>السياسات</li>
+                    <li>الشروط والأحكام</li>
+                </ul>
+            </div>
+            <div class="col-span-3 sm:col-span-3 md:col-span-3 lg:col-span-1">
+                <h3 class="text-[22px] font-bold text-mainColor  dark:text-white">تعرف علينا أكثر </h3>
+                <ul class="text-secondColor  dark:text-white">
+                    <li>قصة رقم</li>
+                    <li>الشركاء</li>
+                    <li>تواصل معنا </li>
+                </ul>
+            </div>
+            <div class="col-span-6 sm:col-span-6 md:col-span-6 lg:col-span-2">
+                <h3 class="text-[22px] font-bold text-mainColor  dark:text-white">اتصل بنا </h3>
+                <p class="text-secondColor my-2  dark:text-white">شركة رقم الاعمال لتقنية المعلومات والاتصالات،
+                    س.ت:1010803732، شركة ذات
+                    مسؤولية محدودة, ذا وايز بيزنس
+                    هب-طريق عثمان بن عفان - الرياض12481     </p>
+                <p class="text-secondColor dark:text-white">بريـــــد إلكترونــــــي : info@rqm.sa</p>
+                <p class="text-secondColor  dark:text-white my-2">رقـــــــم الهاتـــــــف : 0554404688</p>
+                <p class="text-secondColor  dark:text-white">الموقع الإلكتروني : www.rqm.sa</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between border-t p-4 w-[90%] m-auto mt-5 mb-3">
+            <p class=" text-secondColor  dark:text-white">جميع الحقوق محفوظة لشركة رقم 1445 / 2024 ©</p>
+            <div class="flex">
+                <a href=""> <i class="ri-twitter-x-line mx-5 text-3xl"></i></a>
+                <a href=""><i class="ri-linkedin-box-fill text-3xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
