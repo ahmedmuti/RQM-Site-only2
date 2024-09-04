@@ -320,3 +320,18 @@ header {
     background-blend-mode: hard-light, luminosity, luminosity;
     background-size: cover;
 }
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #103a8ffe;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0B204A;
+    border-radius: 30px;
+}

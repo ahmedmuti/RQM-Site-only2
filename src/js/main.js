@@ -166,3 +166,5 @@ var swiper1 = new Swiper(".mySwiper", {
 
 
 
+
+new WOW().init();

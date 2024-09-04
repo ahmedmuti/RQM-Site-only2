@@ -642,6 +642,10 @@ video {
   top: 50%;
 }
 
+.bottom-\[8rem\] {
+  bottom: 8rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -746,6 +750,10 @@ video {
   margin-bottom: 34px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -772,6 +780,10 @@ video {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-20 {
@@ -856,10 +868,6 @@ video {
 
 .h-\[40px\] {
   height: 40px;
-}
-
-.h-\[70\%\] {
-  height: 70%;
 }
 
 .h-\[94\%\] {
@@ -1075,12 +1083,16 @@ video {
      object-fit: cover;
 }
 
-.p-3 {
-  padding: 0.75rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-5 {
@@ -1599,6 +1611,21 @@ header {
   background-size: cover;
 }
 
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #103a8ffe;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0B204A;
+  border-radius: 30px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -1670,9 +1697,19 @@ header {
     grid-column: span 6 / span 6;
   }
 
+  .sm\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
   .sm\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .sm\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .sm\:me-3 {
@@ -1703,9 +1740,18 @@ header {
     justify-content: space-between;
   }
 
+  .sm\:p-4 {
+    padding: 1rem;
+  }
+
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .sm\:text-4xl {
@@ -1814,6 +1860,10 @@ header {
 
   .lg\:ms-3 {
     margin-inline-start: 0.75rem;
+  }
+
+  .lg\:h-\[70\%\] {
+    height: 70%;
   }
 
   .lg\:grid-cols-2 {
