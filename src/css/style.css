@@ -614,12 +614,12 @@ video {
   bottom: 0px;
 }
 
-.bottom-20 {
-  bottom: 5rem;
+.bottom-40 {
+  bottom: 10rem;
 }
 
-.bottom-\[7rem\] {
-  bottom: 7rem;
+.bottom-\[9rem\] {
+  bottom: 9rem;
 }
 
 .left-0 {
@@ -794,16 +794,12 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-\[15px\] {
-  margin-top: 15px;
-}
-
-.mt-\[_clamp\(50px\2c 7vw\2c 60px\)\] {
-  margin-top: clamp(50px,7vw,60px);
-}
-
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
 }
 
 .block {
@@ -1213,6 +1209,10 @@ video {
   font-size: 30px;
 }
 
+.text-\[35px\] {
+  font-size: 35px;
+}
+
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -1225,10 +1225,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[35px\] {
-  font-size: 35px;
 }
 
 .font-bold {
@@ -1305,14 +1301,6 @@ video {
   }
 }
 
-.\[font-size\:_clamp\(20px\2c 2vw\2c 10em\)\] {
-  font-size: clamp(20px,2vw,10em);
-}
-
-.\[font-size\:_clamp\(30px\2c 5vw\2c 10em\)\] {
-  font-size: clamp(30px,5vw,10em);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -1367,11 +1355,11 @@ body {
 
 @keyframes arrow {
   0% {
-    bottom: 80px;
+    bottom: 110px;
   }
 
   100% {
-    bottom: 60px;
+    bottom: 80px;
   }
 }
 
@@ -1725,16 +1713,16 @@ header {
     line-height: 2.5rem;
   }
 
+  .sm\:text-\[4\.375vw\] {
+    font-size: 4.375vw;
+  }
+
   .sm\:text-\[42px\] {
     font-size: 42px;
   }
 
   .sm\:text-\[66px\] {
     font-size: 66px;
-  }
-
-  .sm\:text-\[4\.375vw\] {
-    font-size: 4.375vw;
   }
 
   .sm\:font-bold {
