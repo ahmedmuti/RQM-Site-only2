@@ -157,6 +157,10 @@ body {
 
 }
 
+#services .item {
+    transition: transform 1s !important;
+}
+
 #services .item img {
     transition: all 0.5s;
 }
