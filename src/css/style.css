@@ -802,6 +802,10 @@ video {
   margin-top: clamp(50px,7vw,60px);
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -1221,6 +1225,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .font-bold {
@@ -1725,6 +1733,10 @@ header {
     font-size: 66px;
   }
 
+  .sm\:text-\[4\.375vw\] {
+    font-size: 4.375vw;
+  }
+
   .sm\:font-bold {
     font-weight: 700;
   }
@@ -1743,6 +1755,14 @@ header {
 
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
   }
 
   .md\:block {
@@ -1818,6 +1838,10 @@ header {
 
   .lg\:text-right {
     text-align: right;
+  }
+
+  .lg\:text-\[2\.125vw\] {
+    font-size: 2.125vw;
   }
 }
 
