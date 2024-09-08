@@ -810,6 +810,14 @@ video {
   margin-top: 15px;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .block {
   display: block;
 }
