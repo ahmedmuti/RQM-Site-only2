@@ -169,7 +169,11 @@ var swiper1 = new Swiper(".mySwiper", {
 new WOW().init();
 
 $(function () {
-  $(".loading").fadeOut(2000, () => {
-    $("body").css("overflow-y", "auto");
-  });
+  setTimeout(() => {
+    $("iframe").fadeOut(1000, () => {
+      $(".loading").fadeOut(1000, () => {
+        $("body").css("overflow-y", "auto");
+      });
+    });
+  }, 3000);
 });
