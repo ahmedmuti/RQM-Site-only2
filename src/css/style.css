@@ -690,13 +690,12 @@ video {
   grid-column: span 6 / span 6;
 }
 
-.m-auto {
-  margin: auto;
+.col-span-7 {
+  grid-column: span 7 / span 7;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
+.m-auto {
+  margin: auto;
 }
 
 .mx-3 {
@@ -770,6 +769,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-40 {
   margin-bottom: 10rem;
 }
@@ -780,6 +783,10 @@ video {
 
 .ms-2 {
   margin-inline-start: 0.5rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
 }
 
 .mt-10 {
@@ -1472,7 +1479,8 @@ body {
 #services .title::after,
 #why-rqm h2::after,
 #our-values h2::after,
-.partner h2::after {
+.partner h2::after,
+.contact h2::after {
   content: "";
   position: absolute;
   bottom: -16px;
@@ -1540,14 +1548,14 @@ body {
   #services .item:nth-child(odd) {
     /* transform: translateX(-55px); */
     position: relative;
-    left: -55px;
+    left: -50px;
   }
 
   #services .item:nth-child(even) {
     /* transform: translateX(55px); */
     /* padding-right: 100px; */
     position: relative;
-    right: -55px;
+    right: -50px;
   }
 
   #services .item .center {
@@ -1775,14 +1783,18 @@ header {
     grid-column: span 6 / span 6;
   }
 
-  .sm\:mx-3 {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
+  .sm\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .sm\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .sm\:mx-7 {
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
   }
 
   .sm\:my-4 {
@@ -1889,6 +1901,10 @@ header {
 
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .md\:mx-3 {

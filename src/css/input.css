@@ -138,7 +138,8 @@ body {
 #services .title::after,
 #why-rqm h2::after,
 #our-values h2::after,
-.partner h2::after {
+.partner h2::after,
+.contact h2::after {
     content: "";
     position: absolute;
     bottom: -16px;
@@ -215,14 +216,14 @@ body {
     #services .item:nth-child(odd) {
         /* transform: translateX(-55px); */
         position: relative;
-        left: -55px;
+        left: -50px;
     }
 
     #services .item:nth-child(even) {
         /* transform: translateX(55px); */
         /* padding-right: 100px; */
         position: relative;
-        right: -55px;
+        right: -50px;
     }
 
     #services .item .center {
