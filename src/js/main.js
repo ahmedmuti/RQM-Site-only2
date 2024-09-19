@@ -166,12 +166,12 @@ var swiper1 = new Swiper(".mySwiper", {
   },
 });
 
-// $(function () {
-//   setTimeout(() => {
-//     $("iframe").fadeOut(800, () => {
-//       $(".loading").fadeOut(800, () => {
-//         $("body").css("overflow-y", "auto");
-//       });
-//     });
-//   }, 3000);
-// });
+$(function () {
+  setTimeout(() => {
+    $("iframe").fadeOut(800, () => {
+      $(".loading").fadeOut(800, () => {
+        $("body").css("overflow-y", "auto");
+      });
+    });
+  }, 3000);
+});

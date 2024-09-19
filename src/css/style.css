@@ -1553,6 +1553,14 @@ body {
   #services .item .center {
     padding-right: 60px;
   }
+
+  iframe {
+    width: 100px !important;
+  }
+
+  .frame2 {
+    margin-top: -70px;
+  }
 }
 
 iframe {
