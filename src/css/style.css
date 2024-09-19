@@ -822,6 +822,10 @@ video {
   margin-top: 15px;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
