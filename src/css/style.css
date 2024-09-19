@@ -1751,6 +1751,11 @@ header {
     margin-bottom: 1rem;
   }
 
+  .sm\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
   .sm\:me-3 {
     margin-inline-end: 0.75rem;
   }
