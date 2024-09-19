@@ -166,12 +166,10 @@ var swiper1 = new Swiper(".mySwiper", {
   },
 });
 
-new WOW().init();
-
 $(function () {
   setTimeout(() => {
-    $("iframe").fadeOut(1000, () => {
-      $(".loading").fadeOut(1000, () => {
+    $("iframe").fadeOut(800, () => {
+      $(".loading").fadeOut(800, () => {
         $("body").css("overflow-y", "auto");
       });
     });
