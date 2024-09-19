@@ -206,6 +206,11 @@ body {
     }
 }
 
+.partner h2::after {
+    right: 50% !important;
+    transform: translateX(50%);
+}
+
 @media (max-width:640px) {
     #services .item:nth-child(odd) {
         /* transform: translateX(-55px); */
@@ -223,6 +228,15 @@ body {
     #services .item .center {
         padding-right: 60px;
     }
+
+}
+
+iframe {
+    width: 130px !important;
+}
+
+.frame2 {
+    margin-top: -86px;
 }
 
 #why-rqm .item .item,

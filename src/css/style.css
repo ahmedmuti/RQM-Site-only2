@@ -814,16 +814,16 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
 .mt-\[15px\] {
   margin-top: 15px;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
 }
 
 .block {
@@ -972,6 +972,10 @@ video {
 
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -1134,6 +1138,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1172,11 +1181,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .py-4 {
@@ -1527,6 +1531,11 @@ body {
   }
 }
 
+.partner h2::after {
+  right: 50% !important;
+  transform: translateX(50%);
+}
+
 @media (max-width:640px) {
   #services .item:nth-child(odd) {
     /* transform: translateX(-55px); */
@@ -1544,6 +1553,14 @@ body {
   #services .item .center {
     padding-right: 60px;
   }
+}
+
+iframe {
+  width: 130px !important;
+}
+
+.frame2 {
+  margin-top: -86px;
 }
 
 #why-rqm .item .item,
@@ -1750,24 +1767,19 @@ header {
     grid-column: span 6 / span 6;
   }
 
+  .sm\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
   .sm\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  .sm\:mx-5 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
-
   .sm\:my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
-
-  .sm\:mx-3 {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
   }
 
   .sm\:me-3 {
@@ -1798,10 +1810,6 @@ header {
     width: 80%;
   }
 
-  .sm\:w-\[60\%\] {
-    width: 60%;
-  }
-
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1818,6 +1826,11 @@ header {
     padding: 1rem;
   }
 
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1826,11 +1839,6 @@ header {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .sm\:text-3xl {
@@ -1906,10 +1914,6 @@ header {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
   }
 
   .md\:grid-cols-1 {
