@@ -93,7 +93,9 @@ body {
     background: linear-gradient(180deg, #0B204A 66.19%, #5BB0B9 100%);
     transition: left 1s;
     left: 100%;
-    transition-timing-function: cubic-bezier(.03, 1.17, .81, 1.12)
+    /* transition-timing-function: cubic-bezier(.03, 1.17, .81, 1.12) */
+    transition-timing-function: cubic-bezier(.36, 1.4, .47, 1.41);
+
 }
 
 #side-menu a {
@@ -353,9 +355,7 @@ header {
 
 /* scroll bar */
 
-::-webkit-scrollbar {
-    width: 10px;
-}
+
 
 ::-webkit-scrollbar-track {
     background: #142d4c;
@@ -363,7 +363,30 @@ header {
 
 ::-webkit-scrollbar-thumb {
     background-color: #0B204A;
-    border-radius: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 40px 40px #0B204A;
+}
+
+
+/*  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0B204A;
+    border-radius: 50px;
+    box-shadow: 0 0 40px 40px #0B204A;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #264a759c;
+    box-shadow: 0 0 5px #00000069 inset;
+}
+
+::selection {
+    background-color: #165467;
+    color: #fff;
 }
 
 .underline-for-subpages {
