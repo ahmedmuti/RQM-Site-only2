@@ -148,11 +148,11 @@ var swiper1 = new Swiper(".mySwiper", {
       spaceBetween: 24,
     },
     640: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 25,
     },
     1024: {
@@ -160,7 +160,7 @@ var swiper1 = new Swiper(".mySwiper", {
       spaceBetween: 25,
     },
     1400: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
   },
@@ -173,5 +173,5 @@ $(function () {
         $("body").css("overflow-y", "auto");
       });
     });
-  }, 1000);
+  }, 3000);
 });
